@@ -86,7 +86,7 @@ d3.csv("degreeData.csv", function(err, csvdata) {
 
      // Step 8: Create event listeners to display and hide the tooltip
      // ==============================
-     circlesGroup.on("click", function(data) {
+     circlesGroup.on("mouseover", function(data) {
        toolTip.show(data);
      })
        // onmouseout event
