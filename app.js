@@ -96,22 +96,6 @@ d3.csv("degreeData.csv", function(err, csvdata) {
          toolTip.hide(data);
        });
 
-// bubble text
-
-var nodes=tBubble.enter()
-    .append("g").attr("transform", function(d) { return "translate("+(d.id + cxOffset)+","+cyOffest+")"; })
-    nodes
-        .append("circle")
-        .attr("r", 0)
-        .transition()
-        .attr("r", function(d) { return getBubbleSize(d.size); } );
-
-    nodes
-        .append("text")
-        .attr("r", 0)
-
-        .attr("text-anchor", "middle")
-        .text(function(d) { return d.state; } );
 
        // Create axes labels
        chartGroup.append("text")
