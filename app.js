@@ -77,7 +77,7 @@ d3.csv("degreeData.csv", function(err, csvdata) {
        .attr("class", "tooltip")
        .offset([80, -60])
        .html(function(d) {
-         return (`${d.state}<br>Bachelors Degree: ${d.bachelorsDegree}<br>Income $50k+: ${d.income}`);
+         return (`${d.state}<br>Bachelor's Degree: ${d.bachelorsDegree}<br>Income $50k+: ${d.income}`);
        });
 
      // Step 7: Create tooltip in the chart
@@ -98,8 +98,8 @@ d3.csv("degreeData.csv", function(err, csvdata) {
        // Create axes labels
        chartGroup.append("text")
          .attr("transform", "rotate(-90)")
-         .attr("y", 0 - margin.left + 40)
-         .attr("x", 0 - (height / 2))
+         .attr("y", 0 - margin.left + 20)
+         .attr("x", 0 - (height / 3))
          .attr("dy", "1em")
          .attr("class", "axisText")
          .text("Income in Thousands $");
