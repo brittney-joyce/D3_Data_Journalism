@@ -71,15 +71,6 @@ d3.csv("degreeData.csv", function(err, csvdata) {
      .attr("fill", "pink")
      .attr("opacity", ".5");
 
-     .append("text")
-            .attr("x", function(d){ return d.x; })
-            .attr("y", function(d){ return d.y + 5; })
-            .attr("text-anchor", "middle")
-            .text(function(d){ return d["state"]; })
-            .style({
-                "fill":"white",
-                "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-                "font-size": "12px"
 
      // Step 6: Initialize tool tip
      // ==============================
