@@ -72,7 +72,7 @@ d3.csv("degreeData.csv", function(err, csvdata) {
      .attr("opacity", ".5");
 
      //format the text for each bubble
-    bubbles.append("text")
+    chartGroup.append("text")
         .attr("x", function(d){ return d.x; })
         .attr("y", function(d){ return d.y + 5; })
         .attr("text-anchor", "middle")
