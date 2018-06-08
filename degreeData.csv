@@ -1,52 +1,52 @@
-state,totalPop,bachelorsDegree,income
-Alabama,484011,6.8,38.8
-Alaska,84814,7,55.6
-Arizona,673187,6.9,40.8
-Arkansas,291815,7.4,32.9
-California,3996629,9.5,44.6
-Colorado,524258,11.2,53
-Connecticut,349983,14.1,56.5
-Delaware,91429,8.5,48.4
-District of Columbia,80652,23.7,53.7
-Florida,1798078,8.2,40.1
-Georgia,1029514,8.2,41.5
-Hawaii,136621,7.5,49.1
-Idaho,158006,5.5,41.9
-Illinois,1256770,12.9,48.1
-Indiana,670265,9,41.3
-Iowa,318801,9.8,47.7
-Kansas,300013,10.3,45.9
-Kentucky,430973,8.4,37.4
-Louisiana,474204,7.2,40.8
-Maine,112710,10.9,42.9
-Maryland,562419,12.7,58
-Massachusetts,700372,17.2,54
-Michigan,1005716,9.7,44.7
-Minnesota,501482,12.8,53.6
-Mississippi,310816,5.7,30.5
-Missouri,594320,9.2,44.5
-Montana,103107,6.7,41.4
-Nebraska,188925,10.9,46.6
-Nevada,256970,5.4,44
-New Hampshire,128223,12,55.8
-New Jersey,798047,14.4,55.9
-New Mexico,211672,5,34.6
-New York,1981342,15.1,45.9
-North Carolina,991459,9.5,40
-North Dakota,93106,12.9,51.8
-Ohio,1101063,9.5,44
-Oklahoma,395873,7.1,40.2
-Oregon,364567,7.6,43.4
-Pennsylvania,1228166,12.1,47.1
-Rhode Island,116747,12.1,49.1
-South Carolina,487869,8.4,37.7
-South Dakota,86794,7.1,45.2
-Tennessee,631942,8.8,37.2
-Texas,2753234,7.8,42.4
-Utah,332619,6.6,51.5
-Vermont,66473,12.7,48.2
-Virginia,835457,12.1,52.1
-Washington,674393,10.6,51.9
-West Virginia,170776,6.9,35.3
-Wisconsin,559900,10.5,46.6
-Wyoming,57427,6.6,50.7
+state,bachelorsDegree,income
+Alabama,6.8,38.8
+Alaska,7,55.6
+Arizona,6.9,40.8
+Arkansas,7.4,32.9
+California,9.5,44.6
+Colorado,11.2,53
+Connecticut,14.1,56.5
+Delaware,8.5,48.4
+District of Columbia,23.7,53.7
+Florida,8.2,40.1
+Georgia,8.2,41.5
+Hawaii,7.5,49.1
+Idaho,5.5,41.9
+Illinois,12.9,48.1
+Indiana,9,41.3
+Iowa,9.8,47.7
+Kansas,10.3,45.9
+Kentucky,8.4,37.4
+Louisiana,7.2,40.8
+Maine,10.9,42.9
+Maryland,12.7,58
+Massachusetts,17.2,54
+Michigan,9.7,44.7
+Minnesota,12.8,53.6
+Mississippi,5.7,30.5
+Missouri,9.2,44.5
+Montana,6.7,41.4
+Nebraska,10.9,46.6
+Nevada,5.4,44
+New Hampshire,12,55.8
+New Jersey,14.4,55.9
+New Mexico,5,34.6
+New York,15.1,45.9
+North Carolina,9.5,40
+North Dakota,12.9,51.8
+Ohio,9.5,44
+Oklahoma,7.1,40.2
+Oregon,7.6,43.4
+Pennsylvania,12.1,47.1
+Rhode Island,12.1,49.1
+South Carolina,8.4,37.7
+South Dakota,7.1,45.2
+Tennessee,8.8,37.2
+Texas,7.8,42.4
+Utah,6.6,51.5
+Vermont,12.7,48.2
+Virginia,12.1,52.1
+Washington,10.6,51.9
+West Virginia,6.9,35.3
+Wisconsin,10.5,46.6
+Wyoming,6.6,50.7
