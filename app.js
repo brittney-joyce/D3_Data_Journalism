@@ -37,7 +37,7 @@ d3.csv("degreeData.csv", function(err, csvdata) {
      // Step 2: Create scale functions
      // ==============================
      var xLinearScale = d3.scaleLinear()
-       .domain([20, d3.max(csvdata, d => d.bachelorsDegree)])
+       .domain([0, d3.max(csvdata, d => d.bachelorsDegree)])
        .range([0, width]);
 
      var yLinearScale = d3.scaleLinear()
@@ -107,5 +107,5 @@ d3.csv("degreeData.csv", function(err, csvdata) {
        chartGroup.append("text")
          .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
          .attr("class", "axisText")
-         .text("State");
+         .text("Income");
      });
