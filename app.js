@@ -102,10 +102,10 @@ d3.csv("degreeData.csv", function(err, csvdata) {
          .attr("x", 0 - (height / 2))
          .attr("dy", "1em")
          .attr("class", "axisText")
-         .text("Bachelors Degree in Regards to State Population");
+         .text("Income in Thousands $");
 
        chartGroup.append("text")
          .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
          .attr("class", "axisText")
-         .text("Income");
+         .text("Percentage of Population with a Bachelor's Degree");
      });
