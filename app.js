@@ -80,13 +80,7 @@ d3.csv("degreeData.csv", function(err, csvdata) {
          return (`${d.state}<br>Bachelor's Degree: ${d.bachelorsDegree}<br>Income $50k+: ${d.income}`);
        });
 
-    var texts = svg.selectAll(null)
-    .data(data)
-    .enter()
-    .append('text')
-    .text(d => d.state)
-    .attr('color', 'black')
-    .attr('font-size', 15)
+       
 
      // Step 7: Create tooltip in the chart
      // ==============================
