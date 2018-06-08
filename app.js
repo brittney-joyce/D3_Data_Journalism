@@ -98,14 +98,14 @@ d3.csv("degreeData.csv", function(err, csvdata) {
        // Create axes labels
        chartGroup.append("text")
          .attr("transform", "rotate(-90)")
-         .attr("y", 0 - margin.left + 20)
-         .attr("x", 0 - (height / 3))
+         .attr("y", 0 - margin.left )
+         .attr("x", 0 - (height / 2))
          .attr("dy", "1em")
          .attr("class", "axisText")
          .text("Income in Thousands $");
 
        chartGroup.append("text")
-         .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
+         .attr("transform", `translate(${width / 2}, ${height + margin.top })`)
          .attr("class", "axisText")
          .text("Percentage of Population with a Bachelor's Degree");
      });
